@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PremiumBusAutomationSuite_NewUI" verbose="1" >
+      
+<!-- <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners> -->
+
+ 	<test name="Premium_Bus" >
+   	<parameter name="browser" value="chrome"> </parameter>
+	<parameter name="env" value="stg"></parameter>
+	   <classes>
+	<!-- <class name="testRegression.LoginTest"></class> -->
+	<class name="testRegression.CreateTrips"></class >
+
+ 
+	   </classes>
+ </test>
+ </suite>
